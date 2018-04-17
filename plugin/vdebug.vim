@@ -64,14 +64,14 @@ endif
 
 let g:vdebug_keymap_defaults = {
 \    "run" : "<F5>",
-\    "run_to_cursor" : "<F9>",
-\    "step_over" : "<F2>",
-\    "step_into" : "<F3>",
-\    "step_out" : "<F4>",
-\    "close" : "<F6>",
-\    "detach" : "<F7>",
-\    "set_breakpoint" : "<F10>",
-\    "get_context" : "<F11>",
+\    "run_to_cursor" : "<F7>",
+\    "step_over" : "<F10>",
+\    "step_into" : "<F11>",
+\    "step_out" : "<S-F11>",
+\    "close" : "<S-F5>",
+\    "detach" : "<F6>",
+\    "set_breakpoint" : "<F9>",
+\    "get_context" : "<S-F12>",
 \    "eval_under_cursor" : "<F12>",
 \    "eval_visual" : "<Leader>e"
 \}
